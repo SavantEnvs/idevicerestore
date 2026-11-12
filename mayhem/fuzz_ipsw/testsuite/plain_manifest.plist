@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildIdentities</key>
+	<array>
+		<dict>
+			<key>ApBoardID</key>
+			<string>0x0C</string>
+			<key>ApChipID</key>
+			<string>0x8120</string>
+			<key>Info</key>
+			<dict>
+				<key>DeviceClass</key>
+				<string>d73ap</string>
+				<key>RestoreBehavior</key>
+				<string>Erase</string>
+				<key>Variant</key>
+				<string>Customer Erase Install (IPSW)</string>
+			</dict>
+			<key>Manifest</key>
+			<dict>
+				<key>KernelCache</key>
+				<dict>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>kernelcache.release.iphone15</string>
+					</dict>
+				</dict>
+				<key>iBSS</key>
+				<dict>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/dfu/iBSS.d73.RELEASE.im4p</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>ProductBuildVersion</key>
+	<string>21E219</string>
+	<key>ProductVersion</key>
+	<string>17.4</string>
+	<key>SupportedProductTypes</key>
+	<array>
+		<string>iPhone15,2</string>
+	</array>
+</dict>
+</plist>

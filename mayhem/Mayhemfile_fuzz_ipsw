@@ -1,0 +1,9 @@
+project: savantenvs/idevicerestore
+target: fuzz_ipsw
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ipsw/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ipsw
+    libfuzzer: true
+    timeout: 30

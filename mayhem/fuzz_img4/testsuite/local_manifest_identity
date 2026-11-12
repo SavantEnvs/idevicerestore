@@ -1,0 +1,83 @@
+€%<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApBoardID</key>
+	<integer>12</integer>
+	<key>ApChipID</key>
+	<integer>33056</integer>
+	<key>ApProductionMode</key>
+	<true/>
+	<key>ApSecurityDomain</key>
+	<integer>1</integer>
+	<key>RestoreSEP</key>
+	<dict>
+		<key>Digest</key>
+		<data>
+		KCkqKywtLi8wMTIzNDU2Nzg5Ojs=
+		</data>
+		<key>TBMDigests</key>
+		<data>
+		UlJSUlJSUlJSUlJSUlJSUlJSUlI=
+		</data>
+	</dict>
+	<key>SEP</key>
+	<dict>
+		<key>Digest</key>
+		<data>
+		FBUWFxgZGhscHR4fICEiIyQlJic=
+		</data>
+		<key>TBMDigests</key>
+		<data>
+		VFRUVFRUVFRUVFRUVFRUVFRUVFQ=
+		</data>
+		<key>Trusted</key>
+		<true/>
+	</dict>
+	<key>Unlisted</key>
+	<dict>
+		<key>Digest</key>
+		<data>
+		VVVVVVVVVVVVVVVVVVVVVVVVVVU=
+		</data>
+	</dict>
+	<key>iBSS</key>
+	<dict>
+		<key>Digest</key>
+		<data>
+		AAECAwQFBgcICQoLDA0ODxAREhM=
+		</data>
+		<key>EPRO</key>
+		<true/>
+		<key>ESEC</key>
+		<false/>
+		<key>Trusted</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Manifest</key>
+	<dict>
+		<key>Unlisted</key>
+		<dict>
+			<key>Info</key>
+			<dict>
+				<key>Img4PayloadType</key>
+				<string>unls</string>
+			</dict>
+		</dict>
+		<key>iBSS</key>
+		<dict>
+			<key>Info</key>
+			<dict>
+				<key>Img4PayloadType</key>
+				<string>ibss</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
